@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c190f5b15d03414082679f4fe810c9b, type: 3}
   m_Name: RecolorSprite
   m_EditorClassIdentifier: 
-  originalSprite: {fileID: 0}
+  originalSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   recolorProfiles: []

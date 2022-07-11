@@ -9,12 +9,12 @@ namespace Arcturus.Recolor
     {
         [SerializeField] private Sprite originalSprite;
         [SerializeField] private List<RecolorProfile> recolorProfiles = new List<RecolorProfile>();
+        public Sprite Sprite => originalSprite;
 
         public RecolorSprite(Sprite sprite)
         {
             originalSprite = sprite;
-            // TODO:
-            // Parse colors.
+            ParseColors();
         }
 
         private Sprite GenerateRecolor(string recolorId)
@@ -22,6 +22,11 @@ namespace Arcturus.Recolor
             // TODO:
             // Generate og duplicate and replace pixel color for another.
             return null;
+        }
+
+        public void ParseColors()
+        {
+            // TODO:
         }
 
         /// <summary>
